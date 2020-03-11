@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +30,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo {
+  padding: 12px 0;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: #282c34;
+}
+
+.ToDo-Container {
+  text-align: center;
+  max-width: 800px;
+  box-shadow: 1px 1px 1px whitesmoke;
+  padding: 36px 24px 54px 24px;
+  background: rgb(44, 44, 109);
+  margin: auto;
+  height: 100vh;
+}
+
+.form-label {
+  overflow: hidden;
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: none;
+  font-size: 20px;
 }
